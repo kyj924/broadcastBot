@@ -5,9 +5,9 @@ intents = discord .Intents .default()
 intents .members = True
 intents .message_content = True
 bot = commands .Bot(command_prefix='!', intents=intents)
-client_id = 'wvggep56hyo4c6ydzw7x6rx5z627jm'
-client_secret = '4cg3o3yagiuwjq5vbwj6xdgh4pexz6'
-oauth_token = 'l5d05ce3g6epelmx0iua7up5rszh4r'
+client_id = 'client_id'
+client_secret = 'client_secret'
+oauth_token = 'oauth_token'
 
 
 def get_oauth_token(OOO00O00OOO00OOOO, O000O00OOO0O0O0OO):
@@ -104,4 +104,4 @@ async def broadcast(OO000OO000000OO0O):  # line:80
 @bot .command(name='ping', help='Check if bot is working')  # line:98
 async def ping(O0OO0O0OO000000OO):  # line:99
     await O0OO0O0OO000000OO .send('pong')  # line:100
-bot .run('MTIwMDQxOTYxNzEzMTIyMTA4Mw.G-fys_.XjKvYvba2vmgXoPNtt7Mnkp8rtOFsM9njEPBUo')
+bot .run('token')
